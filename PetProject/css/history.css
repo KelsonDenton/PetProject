@@ -1,0 +1,127 @@
+@font-face{
+	font-family: SourceSansPro;
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+body{
+	max-width: 1020px;
+	margin: 0px auto;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	background-image: url("../images/bushfire-recovery.jpg");
+	text-align: center;
+	min-height: 150px;
+	padding-top: 50px;
+}
+header h1,h4{
+	color: aliceblue;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: SourceSansPro;
+	text-transform: uppercase;
+}
+nav{
+	min-height: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: lightsalmon;
+	overflow: auto;
+}
+nav ul{
+	list-style: none;
+	text-align: center;
+}
+nav li a {
+	float: left;
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: inline-block;
+	padding: 0px 50px 0px 60px;
+	vertical-align: center;
+}
+nav li a:hover{
+	font-weight: bold;
+	background-image: linear-gradient(lightsalmon, lightgoldenrodyellow);
+}
+img{
+	border-radius: 10px;
+	max-width: 30%;
+	height: auto;
+	margin: 10px;
+}
+#p1{
+	margin-left: 10px;
+}
+#main{
+	position: relative;
+	background-color: lightgoldenrodyellow;
+}
+img{
+	min-width: 100px;
+	min-height: auto;
+}
+#first{
+	margin: 10px;
+	height: auto;
+	display: inline-block;
+}
+#second{
+	margin: 10px;
+	height: auto;
+	display: inline-block;
+}
+#third{
+	margin: 10px;
+	height: auto;
+	display: inline-block;
+}
+#image1{
+	float: left;
+	box-shadow: 2px 5px #484848;
+}
+#image1:hover{
+	box-shadow: 4px 10px #484848;
+	top: -5px;
+	bottom: -2px;
+}
+#image2{
+	float: right;
+	box-shadow: 2px 5px #484848;
+}
+#image2:hover{
+	box-shadow: 4px 10px #484848;
+	top: -5px;
+	bottom: -2px;
+}
+#image3{
+	float: left;
+	box-shadow: 2px 5px #484848;
+}
+#image3:hover{
+	box-shadow: 4px 10px #484848;
+	top: -5px;
+	bottom: -2px;
+}
+footer{
+	width: 100%;
+	float: left;
+	background-color: lightsalmon;
+}
+footer h2{
+	color: black;
+	text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+/* CSS Document */
+@font-face{
+	font-family: SourceSansPro;
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+body{
+	max-width: 1020px;
+	margin: 0px auto;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	background-image: url("../images/bushfire-plan.jpg");
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 150px;
+	padding-top: 50px;
+}
+header h1,h4{
+	color: black;
+	padding-left: 10px;
+	font-family: SourceSansPro;
+	text-transform: uppercase;
+}
+nav{
+	min-height: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: lightsalmon;
+	overflow: auto;
+}
+nav ul{
+	list-style: none;
+	text-align: center;
+}
+nav li a {
+	float: left;
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: inline-block;
+	padding: 0px 50px 0px 60px;
+	vertical-align: center;
+}
+nav li a:hover{
+	font-weight: bold;
+	background-image: linear-gradient(lightsalmon, lightgoldenrodyellow);
+}
+#main{
+	background-color: lightgoldenrodyellow;
+	overflow: visible;
+}
+#main h4, h3{
+	color: black;
+	margin: 0px;
+	padding-top: 15px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#main p{
+	padding: 5px;
+	text-align: justify;
+}
+#article1{
+	max-width: 35%;
+	float: left;
+}
+#aside1{
+	max-width: 25%;
+	float: left;
+}
+#aside2{
+	max-width: 37%;
+	float: left;
+}
+#aside2 img{
+	max-width: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	transition: transform 0.5s;
+}
+#aside2 img:hover{
+	transform: scale(1.5);
+}
+#aside2 figcaption{
+	font-size: 10px;
+	padding: 5px;
+}
+footer{
+	width: 100%;
+	float: left;
+	background-color: lightsalmon;
+}
+body::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+#main::after{
+	content: "";
+	clear: both;
+	display: table;
+}

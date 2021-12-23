@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Newsletter Sign-Up</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Sign up for our newsletter</h1>
+		<h4>Stay updated on all important information regarding bushfires</h4>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="history.html">History of Bushfires</a></li>
+			<li><a href="prevention.html">Prevention and Preparation</a></li>
+			<li><a href="index.html">Newsletter</a></li>
+		</ul>
+	</nav>
+	<div id="main">
+		<form method="post">
+			<h2>Sign Up Here</h2>
+			<label for="fullName">Enter full name:</label>
+			<input type="text" name="fullName" id="fullName" placeholder="full name" required><br>
+			<label for="email">Enter Email:</label>
+			<input type="email" name="email" id="email" placeholder="email address" required><br>
+			<label for="birthday">Enter your date of birth:</label>
+			<input type="date" name="birthday" id="birthday" required><br>
+			<label>Select Preferred Prefix:</label><br>
+			<div id="genderSelect">
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Mr.</label><br>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Mrs.</label><br>
+				<input type="radio" id="other" name="gender" value="other">
+				<label for="other">None</label><br>
+			</div>
+			<label for="premium">Check if you wish to donate to your local bushfire brigade:</label>
+			<input type="checkbox" name="premium" id="premium"><br>
+			<input type="submit" id="signUpBtn" value="Sign Up">
+		</form>
+		<aside>
+			<h2>FAQs</h2>
+			<ol>
+				<li class="question">What is in the newsletter?</li>
+				<li class="answer">Information regarding updates on bushfire conditions and safety measures.</li>
+				<li class="question">Why do I need to enter my date of birth?</li>
+				<li class="answer">For us to gauge the demographic accessing our website.</li>
+			</ol>
+		</aside>
+	</div><!--main-->
+</body>
+</html>

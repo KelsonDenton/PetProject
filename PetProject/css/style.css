@@ -1,0 +1,114 @@
+/* CSS Document */
+@font-face{
+	font-family: SourceSansPro;
+	src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+body{
+	max-width: 1020px;
+	margin: 0px auto;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	background-image: url("../images/bushfire.jpg");
+	text-align: center;
+	min-height: 150px;
+	padding-top: 50px;
+}
+header h1,h4{
+	color: aliceblue;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: SourceSansPro;
+	text-transform: uppercase;
+}
+nav{
+	min-height: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: lightsalmon;
+	overflow: auto;
+}
+nav ul{
+	list-style: none;
+	text-align: center;
+}
+nav li a {
+	float: left;
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: inline-block;
+	padding: 0px 50px 0px 60px;
+	vertical-align: center;
+}
+nav li a:hover{
+	font-weight: bold;
+	background-image: linear-gradient(lightsalmon, lightgoldenrodyellow);
+}
+form{
+	width: 60%;
+	float: left;
+	padding: 5px;
+	overflow: inherit;
+}
+form h2{
+	color: black;
+	text-shadow: none;
+}
+#main{
+	float: top;
+	background-color: lightgoldenrodyellow;
+}
+h1{
+	text-shadow: #080808 1px 1px;
+}
+h1, h2{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: aliceblue;
+}
+h2{
+	font-style: italic;
+	text-shadow: #080808 1px 1px;
+}
+label {
+	margin: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+input {
+	margin: 5px;
+	border-radius: 5px;
+	box-shadow: none;
+	text-shadow: none;
+}
+#signUpBtn{
+	float: right;
+	margin-right: 20%;
+}
+#genderSelect{
+	padding: 5px 20px;
+}
+aside{
+	width: 36%;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	overflow: inherit;
+}
+aside ol li .question{
+	font-weight: bold;
+}
+aside ol li .answer{
+	font-style: italic;
+	list-style-type: none;
+}
+aside h2{
+	text-transform: none;
+	color: black;
+	text-shadow: none;
+}
+#main::after{
+	content: "";
+	clear: both;
+	display: table;
+}
